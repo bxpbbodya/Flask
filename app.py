@@ -1,10 +1,10 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
 @app.route('/api/v1/hello-world-16', methods=['GET'])
 def hello_world():
-    return 'Hello World 16', 200
+    return render_template('hello.html'), 200
 
 @app.errorhandler(404)
 def page_not_found(error):
