@@ -6,7 +6,7 @@ This is a simple Flask project that returns "Hello World 16" when you access the
 
 1. Clone this repository to your local machine.
 
-[FlaskHelloWorldAPI]https://github.com/bxpbbodya/Flask
+[FlaskHelloWorldAPI](https://github.com/bxpbbodya/Flask)
 
 
 2. Navigate to the project folder.
